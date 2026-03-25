@@ -11,7 +11,7 @@
 		(company "smartintech.de")
 	)
 	(lib_symbols)
-	(text_box "HODOR - Highly flexible Open-source Door Operation Regulator\n(A sliding door motor controller)\nHODOR - \"Holds your door\"\n\nA universal controller for brushed DC motors from 12 to 24 V supply voltage\nwith H-bridge driver, current sensor and quadrature encoder or end-switch interface. \nInterfaced by programmable inputs, outputs and relays.\nConfiguration and smart home integration via Wi-Fi."
+	(text_box "HODOR - Highly flexible Open-source Door Operation Regulator\n(A sliding door motor controller)\nHODOR - \"Holds your door\"\n\nA universal controller for brushed DC motors from 12 to 24 V supply voltage\nwith H-bridge driver, current sensor and quadrature encoder or end-switch interface. \nInterfaced by programmable inputs and a relay.\nConfiguration and smart home integration via Wi-Fi."
 		(exclude_from_sim no)
 		(at 15.875 15.875 0)
 		(size 86.995 17.78)
@@ -31,311 +31,175 @@
 		)
 		(uuid "f6b70203-f602-4d8c-9076-4e0703bed226")
 	)
-	(junction
-		(at 192.405 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0c004bd-4f2a-436f-b14d-637fd431862d")
-	)
 	(wire
 		(pts
-			(xy 108.585 123.19) (xy 108.585 103.505)
+			(xy 168.91 71.12) (xy 199.39 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15c498d6-b6ce-4169-94c1-ec8826a5b105")
+		(uuid "34255949-8ad9-4984-a9f2-09c3d8304c51")
 	)
 	(wire
 		(pts
-			(xy 118.11 123.19) (xy 108.585 123.19)
+			(xy 88.9 101.6) (xy 118.11 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17985f0e-6535-409c-b51a-7cd3d81f2b28")
+		(uuid "3e5717bb-16fe-41d0-b065-c24e7c36b764")
+	)
+	(wire
+		(pts
+			(xy 168.91 118.11) (xy 199.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3c85cb-68c4-445d-9d48-80f01438dbdb")
+	)
+	(wire
+		(pts
+			(xy 168.91 58.42) (xy 199.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f3276d-20c9-44fc-9226-d7b53e79c929")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.04) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bf3445-1cbb-4f92-a89e-e050cf9913cf")
+	)
+	(wire
+		(pts
+			(xy 168.91 76.2) (xy 199.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b6e3bb-bf57-426b-8ab9-7e2406bfa853")
+	)
+	(wire
+		(pts
+			(xy 168.91 73.66) (xy 199.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84cf9486-b6af-44a9-b0b0-7add4fb74d14")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 199.39 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f21a8c-9858-4cbf-8f41-52e6bf41f89f")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 199.39 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70cdc60-02db-4a44-ad98-ea40de757e2e")
+	)
+	(wire
+		(pts
+			(xy 168.91 107.95) (xy 199.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceff6ae7-1754-40e4-859e-e10134305d15")
 	)
 	(bus
 		(pts
-			(xy 192.405 107.95) (xy 192.405 58.42)
+			(xy 168.91 83.82) (xy 199.39 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19972a7f-5722-49fa-90c2-857a9364035a")
+		(uuid "d13d69cd-f2ac-4ac8-bb91-97050dae0254")
 	)
 	(wire
 		(pts
-			(xy 168.91 120.65) (xy 199.39 120.65)
+			(xy 168.91 110.49) (xy 199.39 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "223702c1-effc-4798-bbce-76f6fed48bb9")
+		(uuid "d87464f2-8297-447a-b187-bdad1f46389d")
 	)
 	(wire
 		(pts
-			(xy 108.585 144.145) (xy 182.245 144.145)
+			(xy 168.91 55.88) (xy 199.39 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "308ee3a1-1c42-4dcf-b463-5f327c43f712")
+		(uuid "de3fc3a7-46b6-44e5-8372-f0964970d1d8")
 	)
 	(wire
 		(pts
-			(xy 179.705 141.605) (xy 111.125 141.605)
+			(xy 199.39 113.03) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e3ce4a9-1ec0-4765-998e-5c432c14cfa0")
+		(uuid "e8b0329c-dc45-4bd9-8633-696f2fb5ab03")
 	)
 	(wire
 		(pts
-			(xy 108.585 103.505) (xy 88.9 103.505)
+			(xy 168.91 53.34) (xy 199.39 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41d910da-2d1c-4f1f-96bc-d6a534258a2b")
+		(uuid "ed9145ff-6f36-4f83-bb64-a6444f212408")
 	)
 	(wire
 		(pts
-			(xy 168.91 114.3) (xy 199.39 114.3)
+			(xy 168.91 68.58) (xy 199.39 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4426ebca-c0fd-4cfa-bcdf-6dcf9e4c25d2")
+		(uuid "ef69de25-cd89-457a-8c83-bc28456a7507")
 	)
 	(wire
 		(pts
-			(xy 111.125 128.27) (xy 118.11 128.27)
+			(xy 88.9 99.06) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4649858d-bf65-4deb-9b82-38cb642d0cc8")
-	)
-	(wire
-		(pts
-			(xy 168.91 72.39) (xy 198.755 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f3fc559-178a-4f2a-b54e-dec8af4d1ce5")
-	)
-	(wire
-		(pts
-			(xy 168.91 47.625) (xy 198.755 47.625)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61db8126-af67-4b10-a3b1-4720e2399333")
-	)
-	(wire
-		(pts
-			(xy 118.11 125.73) (xy 108.585 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b80614-197d-41de-b611-8889172cd8ad")
-	)
-	(wire
-		(pts
-			(xy 179.705 86.36) (xy 179.705 141.605)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "817c9587-8370-4390-982c-c8670015b481")
-	)
-	(wire
-		(pts
-			(xy 168.91 60.96) (xy 198.755 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb426f5-a3ba-48ac-8839-77a655c60024")
-	)
-	(wire
-		(pts
-			(xy 111.125 120.65) (xy 118.11 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c1d7b8e-7bbb-4d33-951d-2ed3438911b0")
-	)
-	(bus
-		(pts
-			(xy 168.91 58.42) (xy 192.405 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c5c013-dd19-4723-b434-71ed68a51b58")
-	)
-	(bus
-		(pts
-			(xy 199.39 107.95) (xy 192.405 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6917f00-098d-40d9-ba8c-778e9dde1e53")
-	)
-	(wire
-		(pts
-			(xy 108.585 125.73) (xy 108.585 144.145)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae0c4de0-458b-4e06-baf5-19f89cb88f45")
-	)
-	(wire
-		(pts
-			(xy 168.91 63.5) (xy 198.755 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c264973c-d48f-4791-9b07-ba5fe00915d1")
-	)
-	(bus
-		(pts
-			(xy 192.405 58.42) (xy 198.755 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c65ca39f-8c89-44c4-bcfd-f90636d5f1a6")
-	)
-	(wire
-		(pts
-			(xy 88.9 100.965) (xy 111.125 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c886e55d-895a-4934-9702-22993c56c2cd")
-	)
-	(wire
-		(pts
-			(xy 182.245 88.9) (xy 198.755 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf13e730-fc6e-4d5f-b691-681d9a4b0035")
-	)
-	(wire
-		(pts
-			(xy 111.125 141.605) (xy 111.125 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d535aee5-d0bf-447a-b7ae-632f450c8095")
-	)
-	(wire
-		(pts
-			(xy 168.91 66.04) (xy 198.755 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7bed0c0-371b-48f3-9016-12b7d875bf45")
-	)
-	(wire
-		(pts
-			(xy 168.91 81.28) (xy 198.755 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de332b84-e9ba-46e5-b7e3-ee69347def75")
-	)
-	(wire
-		(pts
-			(xy 198.755 86.36) (xy 179.705 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1fdf3dd-0ad1-4a80-a767-4ec68f15dd8e")
-	)
-	(wire
-		(pts
-			(xy 182.245 144.145) (xy 182.245 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eda0c3c4-db41-4426-99d3-5a3c9ff865c5")
-	)
-	(wire
-		(pts
-			(xy 168.91 50.165) (xy 198.755 50.165)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1a8f643-8911-4301-9274-32968c185bbb")
-	)
-	(wire
-		(pts
-			(xy 111.125 100.965) (xy 111.125 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a498e4-f02e-4fcf-9215-c2fac2005d52")
-	)
-	(wire
-		(pts
-			(xy 168.91 78.74) (xy 198.755 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdb9ea74-0cdb-4a67-88f7-f13ea1ff96a1")
+		(uuid "fa068072-54df-47cb-ba71-0f9a7d3f89d0")
 	)
 	(table
 		(column_count 2)
@@ -497,8 +361,8 @@
 			)
 		)
 		(pin "V_{BUS}_SENSE" output
-			(at 88.9 100.965 0)
-			(uuid "af3add9d-b93f-4496-91fe-79b02be47ecd")
+			(at 88.9 99.06 0)
+			(uuid "6c690cd2-110a-4ab9-b318-56a5c54d4a79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,8 +371,8 @@
 			)
 		)
 		(pin "V_{DC}_SENSE" output
-			(at 88.9 103.505 0)
-			(uuid "4af77919-60a3-4c0b-9bee-c472dca4efbf")
+			(at 88.9 101.6 0)
+			(uuid "a91d9521-300f-4594-bfde-858479d1f22e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +390,7 @@
 	)
 	(sheet
 		(at 199.39 101.6)
-		(size 62.865 33.655)
+		(size 63.5 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -558,9 +422,9 @@
 				(justify left top)
 			)
 		)
-		(pin "{SPI}" bidirectional
+		(pin "INPUT_1" output
 			(at 199.39 107.95 180)
-			(uuid "6bd7e5e8-bde2-4684-8141-e6408bfd58c9")
+			(uuid "1daf99c0-0b19-48e1-b3c3-6e62ada3d7c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,9 +432,9 @@
 				(justify left)
 			)
 		)
-		(pin "IO_INT" output
-			(at 199.39 114.3 180)
-			(uuid "1abd78ca-3937-48ec-ace3-ac6a898ac25a")
+		(pin "INPUT_2" output
+			(at 199.39 110.49 180)
+			(uuid "0a0be2eb-064d-419c-a611-dd2537c98a38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,9 +442,19 @@
 				(justify left)
 			)
 		)
-		(pin "IO_~{RST}" input
-			(at 199.39 120.65 180)
-			(uuid "ca19e60a-e50e-4b7a-add7-22c2d7c74917")
+		(pin "INPUT_3" output
+			(at 199.39 113.03 180)
+			(uuid "96d434fd-4e15-4711-8ca5-7a3eadd63ab7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REL_CTRL1" input
+			(at 199.39 118.11 180)
+			(uuid "c988f791-d00f-48f2-aa04-be2f460ad85d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +471,7 @@
 		)
 	)
 	(sheet
-		(at 198.755 43.18)
+		(at 199.39 43.18)
 		(size 60.96 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -613,7 +487,7 @@
 		)
 		(uuid "d9462714-63c5-4d20-a6ea-aefea568c44f")
 		(property "Sheetname" "Motor Control"
-			(at 198.755 42.4684 0)
+			(at 199.39 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +496,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_control.kicad_sch"
-			(at 198.755 94.5646 0)
+			(at 199.39 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -630,59 +504,9 @@
 				(justify left top)
 			)
 		)
-		(pin "DRV_EN" input
-			(at 198.755 60.96 180)
-			(uuid "c2e762f0-6acc-4aa7-b42d-942070d655b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SAFETY_TRIG" input
-			(at 198.755 50.165 180)
-			(uuid "fad00274-9f92-4c9e-942d-ebc771f5746b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DRV_~{SF}" output
-			(at 198.755 72.39 180)
-			(uuid "734d72fb-bda2-4072-adaa-672b3a3e7680")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ENCODER_B" output
-			(at 198.755 81.28 180)
-			(uuid "c54e08fa-b3b6-46c6-9f7d-ff38e52f6581")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{SPI}" bidirectional
-			(at 198.755 58.42 180)
-			(uuid "4374d5c1-1022-4c82-b344-50b71ebeb10f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ADC_DRV_FB" output
-			(at 198.755 88.9 180)
-			(uuid "16b82d3d-32bb-4c18-b369-62879dd53fd7")
+			(at 199.39 53.34 180)
+			(uuid "3fab8f66-d4f8-42b1-beaf-902056adc1c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,8 +515,8 @@
 			)
 		)
 		(pin "ADC_I_{SENSE}" output
-			(at 198.755 86.36 180)
-			(uuid "360b965a-e31d-44c7-a100-01ab9da79430")
+			(at 199.39 55.88 180)
+			(uuid "bf4c0ca7-1788-4f92-9236-1918ae4afce1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -700,9 +524,9 @@
 				(justify left)
 			)
 		)
-		(pin "SAFETY_~{CLR}" input
-			(at 198.755 47.625 180)
-			(uuid "70b3997b-74a3-48db-9bbb-315e48bebcef")
+		(pin "DRV_EN" input
+			(at 199.39 58.42 180)
+			(uuid "fdce2882-f127-4f44-9c67-9e71f05871c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,8 +535,8 @@
 			)
 		)
 		(pin "DRV_PWM1" input
-			(at 198.755 63.5 180)
-			(uuid "15cf7801-f132-46d4-80bb-56fda7965a7a")
+			(at 199.39 60.96 180)
+			(uuid "db8ff46b-bc3a-4eac-9486-bcc8f7626792")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,8 +545,18 @@
 			)
 		)
 		(pin "DRV_PWM2" input
-			(at 198.755 66.04 180)
-			(uuid "dfab1e76-b1ef-4596-b98e-37c8e14fdf45")
+			(at 199.39 63.5 180)
+			(uuid "db4f3bed-b7bb-4133-992b-e2c81835df37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_~{SF}" output
+			(at 199.39 66.04 180)
+			(uuid "423de659-dcb2-45b3-a2bf-9c459297e32e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -731,8 +565,48 @@
 			)
 		)
 		(pin "ENCODER_A" output
-			(at 198.755 78.74 180)
-			(uuid "b98046a7-7903-43a9-83e3-e838b981a64c")
+			(at 199.39 68.58 180)
+			(uuid "896378fa-960f-462c-908f-3fc12b6e9e4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCODER_B" output
+			(at 199.39 71.12 180)
+			(uuid "4b0c741e-f913-4165-aec3-a851e6286db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAFETY_TRIG" input
+			(at 199.39 73.66 180)
+			(uuid "19c066a5-17a2-4501-96f8-a0b6ed1b781b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAFETY_~{CLR}" input
+			(at 199.39 76.2 180)
+			(uuid "b346612b-02c6-4eac-9f37-ef91cf5b54d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI}" bidirectional
+			(at 199.39 83.82 180)
+			(uuid "3ed708dc-ebe9-4c6e-b487-8e1790a2bc12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,11 +654,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "{SPI}" bidirectional
-			(at 168.91 58.42 0)
-			(uuid "f8a4752b-eff5-4a79-a44e-7806987ccc46")
+		(pin "ADC_DRV_FB" input
+			(at 168.91 53.34 0)
+			(uuid "3bd4ae87-0af0-4f35-87c6-6c6f76b2beff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,89 +667,19 @@
 				(justify right)
 			)
 		)
-		(pin "ENCODER_A" input
-			(at 168.91 78.74 0)
-			(uuid "8c953199-fefe-4ca3-85cc-391b19472114")
+		(pin "ADC_I_{SENSE}" input
+			(at 168.91 55.88 0)
+			(uuid "61f32952-f502-404b-a99a-740337afc0c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "SAFETY_TRIG" output
-			(at 168.91 50.165 0)
-			(uuid "b311e3d8-7b67-417d-a3ca-37d277e64aec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ADC_CH3" input
-			(at 118.11 125.73 180)
-			(uuid "52b1ae88-6d1d-4cea-85e0-a192d4a60905")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ADC_CH2" input
-			(at 118.11 123.19 180)
-			(uuid "bf5bbd54-400f-49e4-9d6b-885dcc74a68c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ADC_CH4" input
-			(at 118.11 128.27 180)
-			(uuid "f4a506b6-2749-4b15-8013-a119e06411cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "DRV_EN" output
-			(at 168.91 60.96 0)
-			(uuid "20dff749-0067-43d0-a8c1-e6ad3aa488d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SAFETY_~{CLR}" output
-			(at 168.91 47.625 0)
-			(uuid "95366fe9-c534-48f4-a514-b3462f8d38a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DRV_PWM2" output
-			(at 168.91 66.04 0)
-			(uuid "b586c1b2-1baa-40ba-b030-bada04280711")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DRV_~{SF}" input
-			(at 168.91 72.39 0)
-			(uuid "3f8bd00e-435c-4c99-b83a-8f3635d8edc9")
+			(at 168.91 58.42 0)
+			(uuid "c2408e9a-1c82-4e43-bebb-17091a3b2816")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -883,8 +688,38 @@
 			)
 		)
 		(pin "DRV_PWM1" output
+			(at 168.91 60.96 0)
+			(uuid "1bf897c0-ac49-4d16-a49b-39289be51e02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_PWM2" output
 			(at 168.91 63.5 0)
-			(uuid "1a59e16f-67d4-40ff-bbb9-421f5e9121f0")
+			(uuid "94c2c4a0-50bd-44a3-8984-4bf03406cea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_~{SF}" input
+			(at 168.91 66.04 0)
+			(uuid "04647228-fbdf-4ae4-b50e-ec352e32915e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCODER_A" input
+			(at 168.91 68.58 0)
+			(uuid "9b64886c-2cef-4e7d-9160-a81fb1c8ca0b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,8 +728,8 @@
 			)
 		)
 		(pin "ENCODER_B" input
-			(at 168.91 81.28 0)
-			(uuid "fb94add8-0732-4a6e-bb8b-9bfb6595a859")
+			(at 168.91 71.12 0)
+			(uuid "39347a6f-9d57-4ad2-966b-888d9319bac0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,9 +737,69 @@
 				(justify right)
 			)
 		)
-		(pin "ADC_CH1" input
-			(at 118.11 120.65 180)
-			(uuid "a3435f9f-a98b-4f2c-aba9-0f6b287e99e1")
+		(pin "INPUT_1" input
+			(at 168.91 107.95 0)
+			(uuid "42ee1ceb-14fa-4bdf-82cf-aaf3540ba0d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT_2" input
+			(at 168.91 110.49 0)
+			(uuid "f8f5e5d7-709c-4aa9-ab27-b370d05a6543")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT_3" input
+			(at 168.91 113.03 0)
+			(uuid "92bd8d85-8352-4c98-9f2f-4b57945bdaf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REL_CTRL1" output
+			(at 168.91 118.11 0)
+			(uuid "739b24e4-35af-4c44-900b-fdef94eea155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAFETY_TRIG" output
+			(at 168.91 73.66 0)
+			(uuid "cbcd6f24-3a30-4c3c-aeb1-cd8565b2223a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAFETY_~{CLR}" output
+			(at 168.91 76.2 0)
+			(uuid "cf5cce37-c799-4748-b179-286e3ae75c6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{BUS}_SENSE" input
+			(at 118.11 99.06 180)
+			(uuid "e5d581fc-865c-4fdc-98ec-bbb07f5b1e00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,19 +807,19 @@
 				(justify left)
 			)
 		)
-		(pin "IO_INT" input
-			(at 168.91 114.3 0)
-			(uuid "4295e05d-dd19-4267-8f92-264b864e458b")
+		(pin "V_{DC}_SENSE" input
+			(at 118.11 101.6 180)
+			(uuid "567717dc-0d42-4bec-a41a-3f77579fe3f1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "IO_~{RST}" output
-			(at 168.91 120.65 0)
-			(uuid "6930d678-97af-4b33-a54c-03a6239389ba")
+		(pin "{SPI}" bidirectional
+			(at 168.91 83.82 0)
+			(uuid "f10ce0ee-3298-4c43-9694-bf33742ed4a4")
 			(effects
 				(font
 					(size 1.27 1.27)

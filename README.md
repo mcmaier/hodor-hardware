@@ -30,7 +30,6 @@ The HODOR system consists of four main subsystems:
                             |              v
                             |        +----------------+
                             |        |  Peripherals   |
-                            |        |  I/O Expansion |
                             |        +----------------+
                             v
                      +----------------+
@@ -82,21 +81,18 @@ The H-bridge allows bidirectional control of the DC motor with variable speed co
 
 ### Peripherals
 
-The peripheral subsystem provides additional inputs and outputs for:
+The control device provides:
 - Inputs (Potential free or 12..24 V DC)
-- Outputs (Switched supply voltage)
 - Status indicators
-- Relay outputs
-
-It communicates with the main controller via SPI and provides interrupts for event notifications (`IO_INT`).
+- Relay output
 
 ## Key Features
 
 - Supports brushed DC motors from 12 to 24V
 - H-bridge driver with current sensing for motor protection
 - Quadrature encoder interface for precise position feedback
-- Configurable inputs and outputs
-- Programmable relay outputs
+- Configurable inputs
+- Programmable relay output
 - Wi-Fi connectivity for configuration and smart home integration
 - Safety mechanisms for door operation
 - Open-source hardware and software design
