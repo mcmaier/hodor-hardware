@@ -1,0 +1,14 @@
+# KiCad backup files
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*.tmp
+*.tmp1
+*.tmp2
+*.kicad_pcb~
+*.sch~
+fp-info-cache
+
+# OS generated files
+.DS_Store
+Thumbs.db

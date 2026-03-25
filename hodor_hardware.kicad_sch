@@ -1,0 +1,949 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2da01e60-41ef-423d-82f4-a5c8908d8b96")
+	(paper "A4")
+	(title_block
+		(title "HODOR (Highly flexible Open-source Door Operation Regulator)")
+		(date "2025-02-21")
+		(rev "00")
+		(company "smartintech.de")
+	)
+	(lib_symbols)
+	(text_box "HODOR - Highly flexible Open-source Door Operation Regulator\n(A sliding door motor controller)\nHODOR - \"Holds your door\"\n\nA universal controller for brushed DC motors from 12 to 24 V supply voltage\nwith H-bridge driver, current sensor and quadrature encoder or end-switch interface. \nInterfaced by programmable inputs, outputs and relays.\nConfiguration and smart home integration via Wi-Fi."
+		(exclude_from_sim no)
+		(at 15.875 15.875 0)
+		(size 86.995 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f6b70203-f602-4d8c-9076-4e0703bed226")
+	)
+	(junction
+		(at 192.405 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0c004bd-4f2a-436f-b14d-637fd431862d")
+	)
+	(wire
+		(pts
+			(xy 108.585 123.19) (xy 108.585 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c498d6-b6ce-4169-94c1-ec8826a5b105")
+	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 108.585 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17985f0e-6535-409c-b51a-7cd3d81f2b28")
+	)
+	(bus
+		(pts
+			(xy 192.405 107.95) (xy 192.405 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19972a7f-5722-49fa-90c2-857a9364035a")
+	)
+	(wire
+		(pts
+			(xy 168.91 120.65) (xy 199.39 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223702c1-effc-4798-bbce-76f6fed48bb9")
+	)
+	(wire
+		(pts
+			(xy 108.585 144.145) (xy 182.245 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308ee3a1-1c42-4dcf-b463-5f327c43f712")
+	)
+	(wire
+		(pts
+			(xy 179.705 141.605) (xy 111.125 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3ce4a9-1ec0-4765-998e-5c432c14cfa0")
+	)
+	(wire
+		(pts
+			(xy 108.585 103.505) (xy 88.9 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d910da-2d1c-4f1f-96bc-d6a534258a2b")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 199.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4426ebca-c0fd-4cfa-bcdf-6dcf9e4c25d2")
+	)
+	(wire
+		(pts
+			(xy 111.125 128.27) (xy 118.11 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4649858d-bf65-4deb-9b82-38cb642d0cc8")
+	)
+	(wire
+		(pts
+			(xy 168.91 72.39) (xy 198.755 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3fc559-178a-4f2a-b54e-dec8af4d1ce5")
+	)
+	(wire
+		(pts
+			(xy 168.91 47.625) (xy 198.755 47.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61db8126-af67-4b10-a3b1-4720e2399333")
+	)
+	(wire
+		(pts
+			(xy 118.11 125.73) (xy 108.585 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b80614-197d-41de-b611-8889172cd8ad")
+	)
+	(wire
+		(pts
+			(xy 179.705 86.36) (xy 179.705 141.605)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817c9587-8370-4390-982c-c8670015b481")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 198.755 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb426f5-a3ba-48ac-8839-77a655c60024")
+	)
+	(wire
+		(pts
+			(xy 111.125 120.65) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1d7b8e-7bbb-4d33-951d-2ed3438911b0")
+	)
+	(bus
+		(pts
+			(xy 168.91 58.42) (xy 192.405 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c5c013-dd19-4723-b434-71ed68a51b58")
+	)
+	(bus
+		(pts
+			(xy 199.39 107.95) (xy 192.405 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6917f00-098d-40d9-ba8c-778e9dde1e53")
+	)
+	(wire
+		(pts
+			(xy 108.585 125.73) (xy 108.585 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0c4de0-458b-4e06-baf5-19f89cb88f45")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 198.755 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c264973c-d48f-4791-9b07-ba5fe00915d1")
+	)
+	(bus
+		(pts
+			(xy 192.405 58.42) (xy 198.755 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65ca39f-8c89-44c4-bcfd-f90636d5f1a6")
+	)
+	(wire
+		(pts
+			(xy 88.9 100.965) (xy 111.125 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c886e55d-895a-4934-9702-22993c56c2cd")
+	)
+	(wire
+		(pts
+			(xy 182.245 88.9) (xy 198.755 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf13e730-fc6e-4d5f-b691-681d9a4b0035")
+	)
+	(wire
+		(pts
+			(xy 111.125 141.605) (xy 111.125 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d535aee5-d0bf-447a-b7ae-632f450c8095")
+	)
+	(wire
+		(pts
+			(xy 168.91 66.04) (xy 198.755 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bed0c0-371b-48f3-9016-12b7d875bf45")
+	)
+	(wire
+		(pts
+			(xy 168.91 81.28) (xy 198.755 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de332b84-e9ba-46e5-b7e3-ee69347def75")
+	)
+	(wire
+		(pts
+			(xy 198.755 86.36) (xy 179.705 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fdf3dd-0ad1-4a80-a767-4ec68f15dd8e")
+	)
+	(wire
+		(pts
+			(xy 182.245 144.145) (xy 182.245 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda0c3c4-db41-4426-99d3-5a3c9ff865c5")
+	)
+	(wire
+		(pts
+			(xy 168.91 50.165) (xy 198.755 50.165)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a8f643-8911-4301-9274-32968c185bbb")
+	)
+	(wire
+		(pts
+			(xy 111.125 100.965) (xy 111.125 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a498e4-f02e-4fcf-9215-c2fac2005d52")
+	)
+	(wire
+		(pts
+			(xy 168.91 78.74) (xy 198.755 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb9ea74-0cdb-4a67-88f7-f13ea1ff96a1")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 17.78 19.05)
+		(row_heights 3.175 3.175 3.175)
+		(cells
+			(table_cell "Input Voltage"
+				(exclude_from_sim no)
+				(at 19.05 177.165 0)
+				(size 17.78 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0c273a3d-7297-41f3-800e-cba5bcd4337e")
+			)
+			(table_cell "Standby Current"
+				(exclude_from_sim no)
+				(at 36.83 177.165 0)
+				(size 19.05 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "08e44094-94a4-48f7-ae53-4aefb3f4be47")
+			)
+			(table_cell "12 V"
+				(exclude_from_sim no)
+				(at 19.05 180.34 0)
+				(size 17.78 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e07f8772-d9a6-4555-8669-ec1b73b285da")
+			)
+			(table_cell "tbc"
+				(exclude_from_sim no)
+				(at 36.83 180.34 0)
+				(size 19.05 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "398b41d4-4db9-42f2-bd8d-3c0aa27e65c7")
+			)
+			(table_cell "24 V"
+				(exclude_from_sim no)
+				(at 19.05 183.515 0)
+				(size 17.78 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dd0ce464-5f5e-401b-a45a-6a4f4263297b")
+			)
+			(table_cell "tbc"
+				(exclude_from_sim no)
+				(at 36.83 183.515 0)
+				(size 19.05 3.175)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ef77a171-6e25-4b9f-bb9c-8e5b4cc07630")
+			)
+		)
+	)
+	(sheet
+		(at 33.02 87.63)
+		(size 55.88 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a2ab631-9c09-4ff5-b76c-afe5090e4ede")
+		(property "Sheetname" "Power"
+			(at 33.02 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_terminals.kicad_sch"
+			(at 33.02 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_{BUS}_SENSE" output
+			(at 88.9 100.965 0)
+			(uuid "af3add9d-b93f-4496-91fe-79b02be47ecd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_{DC}_SENSE" output
+			(at 88.9 103.505 0)
+			(uuid "4af77919-60a3-4c0b-9bee-c472dca4efbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 101.6)
+		(size 62.865 33.655)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59c10e9e-1d24-4847-9094-5ca7ef688d11")
+		(property "Sheetname" "Peripherals"
+			(at 199.39 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 199.39 135.8396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SPI}" bidirectional
+			(at 199.39 107.95 180)
+			(uuid "6bd7e5e8-bde2-4684-8141-e6408bfd58c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_INT" output
+			(at 199.39 114.3 180)
+			(uuid "1abd78ca-3937-48ec-ace3-ac6a898ac25a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_~{RST}" input
+			(at 199.39 120.65 180)
+			(uuid "ca19e60a-e50e-4b7a-add7-22c2d7c74917")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.755 43.18)
+		(size 60.96 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9462714-63c5-4d20-a6ea-aefea568c44f")
+		(property "Sheetname" "Motor Control"
+			(at 198.755 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_control.kicad_sch"
+			(at 198.755 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DRV_EN" input
+			(at 198.755 60.96 180)
+			(uuid "c2e762f0-6acc-4aa7-b42d-942070d655b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAFETY_TRIG" input
+			(at 198.755 50.165 180)
+			(uuid "fad00274-9f92-4c9e-942d-ebc771f5746b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_~{SF}" output
+			(at 198.755 72.39 180)
+			(uuid "734d72fb-bda2-4072-adaa-672b3a3e7680")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCODER_B" output
+			(at 198.755 81.28 180)
+			(uuid "c54e08fa-b3b6-46c6-9f7d-ff38e52f6581")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SPI}" bidirectional
+			(at 198.755 58.42 180)
+			(uuid "4374d5c1-1022-4c82-b344-50b71ebeb10f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_DRV_FB" output
+			(at 198.755 88.9 180)
+			(uuid "16b82d3d-32bb-4c18-b369-62879dd53fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_I_{SENSE}" output
+			(at 198.755 86.36 180)
+			(uuid "360b965a-e31d-44c7-a100-01ab9da79430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SAFETY_~{CLR}" input
+			(at 198.755 47.625 180)
+			(uuid "70b3997b-74a3-48db-9bbb-315e48bebcef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_PWM1" input
+			(at 198.755 63.5 180)
+			(uuid "15cf7801-f132-46d4-80bb-56fda7965a7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_PWM2" input
+			(at 198.755 66.04 180)
+			(uuid "dfab1e76-b1ef-4596-b98e-37c8e14fdf45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCODER_A" output
+			(at 198.755 78.74 180)
+			(uuid "b98046a7-7903-43a9-83e3-e838b981a64c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 43.18)
+		(size 50.8 92.71)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "efd4ec69-52b7-4b82-b6f7-297e43729fd0")
+		(property "Sheetname" "Controllerboard"
+			(at 118.11 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 118.11 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SPI}" bidirectional
+			(at 168.91 58.42 0)
+			(uuid "f8a4752b-eff5-4a79-a44e-7806987ccc46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCODER_A" input
+			(at 168.91 78.74 0)
+			(uuid "8c953199-fefe-4ca3-85cc-391b19472114")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAFETY_TRIG" output
+			(at 168.91 50.165 0)
+			(uuid "b311e3d8-7b67-417d-a3ca-37d277e64aec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH3" input
+			(at 118.11 125.73 180)
+			(uuid "52b1ae88-6d1d-4cea-85e0-a192d4a60905")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CH2" input
+			(at 118.11 123.19 180)
+			(uuid "bf5bbd54-400f-49e4-9d6b-885dcc74a68c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_CH4" input
+			(at 118.11 128.27 180)
+			(uuid "f4a506b6-2749-4b15-8013-a119e06411cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_EN" output
+			(at 168.91 60.96 0)
+			(uuid "20dff749-0067-43d0-a8c1-e6ad3aa488d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SAFETY_~{CLR}" output
+			(at 168.91 47.625 0)
+			(uuid "95366fe9-c534-48f4-a514-b3462f8d38a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_PWM2" output
+			(at 168.91 66.04 0)
+			(uuid "b586c1b2-1baa-40ba-b030-bada04280711")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_~{SF}" input
+			(at 168.91 72.39 0)
+			(uuid "3f8bd00e-435c-4c99-b83a-8f3635d8edc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_PWM1" output
+			(at 168.91 63.5 0)
+			(uuid "1a59e16f-67d4-40ff-bbb9-421f5e9121f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCODER_B" input
+			(at 168.91 81.28 0)
+			(uuid "fb94add8-0732-4a6e-bb8b-9bfb6595a859")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_CH1" input
+			(at 118.11 120.65 180)
+			(uuid "a3435f9f-a98b-4f2c-aba9-0f6b287e99e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO_INT" input
+			(at 168.91 114.3 0)
+			(uuid "4295e05d-dd19-4267-8f92-264b864e458b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IO_~{RST}" output
+			(at 168.91 120.65 0)
+			(uuid "6930d678-97af-4b33-a54c-03a6239389ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "hodor_hardware"
+				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
