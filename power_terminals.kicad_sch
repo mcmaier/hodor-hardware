@@ -3604,131 +3604,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VDC"
 			(power)
 			(pin_numbers
@@ -4101,12 +3976,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "993d96b4-80ee-4ffe-956b-b3420512ee80")
-	)
-	(junction
-		(at 233.68 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aecf445-bfd2-4bb5-ba2b-fa691b185825")
 	)
 	(junction
 		(at 218.44 78.74)
@@ -7303,72 +7172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 233.68 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d66ac6b-69ca-42dd-a897-a3e40bfa858b")
-		(property "Reference" "T34"
-			(at 234.95 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 239.395 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 233.68 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "332c294d-fa65-47a3-a143-5e54ac8e9099")
-		)
-		(instances
-			(project "hodor_hardware"
-				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
-					(reference "T34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 36.83 86.36 0)
 		(unit 1)
@@ -8366,72 +8169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VD")
-		(at 233.68 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56b76bb9-76c4-47df-b79e-0b8867e45377")
-		(property "Reference" "#PWR05"
-			(at 233.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VD3V3"
-			(at 233.68 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VD\""
-			(at 233.68 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a4904dc-314d-4eda-b7d0-099ee21ac274")
-		)
-		(instances
-			(project "hodor_hardware"
-				(path "/2da01e60-41ef-423d-82f4-a5c8908d8b96/4a2ab631-9c09-4ff5-b76c-afe5090e4ede"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hodor_custom_parts:LM74610")
 		(at 142.24 52.07 0)
 		(unit 1)
@@ -8669,7 +8406,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 240.03 66.04 0)
+		(at 233.68 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8677,7 +8414,7 @@
 		(dnp no)
 		(uuid "694c8e58-4250-4a51-820e-0047785d6a7e")
 		(property "Reference" "#PWR035"
-			(at 240.03 69.85 0)
+			(at 233.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8423,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 240.411 61.6458 0)
+			(at 234.061 62.9158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +8431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 66.04 0)
+			(at 233.68 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 66.04 0)
+			(at 233.68 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +8449,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 240.03 66.04 0)
+			(at 233.68 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
