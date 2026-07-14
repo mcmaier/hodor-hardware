@@ -9,9 +9,6 @@
 *.sch~
 fp-info-cache
 
-# Production files
-jlcpcb
-
 # OS generated files
 .DS_Store
 Thumbs.db
